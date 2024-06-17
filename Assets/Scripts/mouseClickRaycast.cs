@@ -44,9 +44,12 @@ public class mouseClickRaycast : MonoBehaviour
 
                         Debug.Log(highlightArea.ToString());
                         //if (creationArea1.Contains(highlightArea) || creationArea2.Contains(highlightArea))
-                            if (highlightArea.x>-4.5 && highlightArea.x < 4.5 && highlightArea.y > -4 && highlightArea.y < 4)
+                            if ( ((highlightArea.x>-4.5 && highlightArea.x < -0.8) || (highlightArea.x < 4.5 && highlightArea.x > 0.8))
+                                   && ((highlightArea.y > -4 ) && (highlightArea.y < 4 )))
                             {
+                                
                                 Instantiate(highlight, highlightArea, Quaternion.identity, canvas.transform);
+                                
                             }
                         }
 
