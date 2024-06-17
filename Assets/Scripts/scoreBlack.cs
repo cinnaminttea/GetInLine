@@ -12,7 +12,6 @@ public class scoreBlack : MonoBehaviour
     {
         if (collision.gameObject.tag == "eliminate")
         {
-            Debug.Log("oop");
             Destroy(gameObject);
 
             score.AddScoreW();
