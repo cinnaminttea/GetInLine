@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class mouseClickRaycast : MonoBehaviour
 {
     public Vector3 clickedBead;
     public GameObject highlight;
     public Canvas canvas;
+    public Rect creationArea;
 
     // Update is called once per frame
     void Update()
@@ -22,19 +24,23 @@ public class mouseClickRaycast : MonoBehaviour
             if (hit.collider != null)
             {
                 // Output the position of the hit game object
-                Debug.Log("Hit game object at position: " + hit.transform.position);
-                clickedBead = hit.transform.position;
-                for (int i = 0; i < 3; i++)
-                {
 
-                    for (int j = 0; j < 3; j++)
+                clickedBead = hit.transform.position;
+                
+                    for (int i = 0; i < 3; i++)
                     {
 
-                        Instantiate(highlight, clickedBead + new Vector3(0.702f*(i-1),0.694f*(j-1),0), Quaternion.identity, canvas.transform);
+                        for (int j = 0; j < 3; j++)
+                        {
+
+                        //if (creationArea.Contains(clickedBead))
+                        if (1==1)
+                            {
+                                Instantiate(highlight, clickedBead + new Vector3(0.702f * (i - 1), 0.694f * (j - 1), 0), Quaternion.identity, canvas.transform);
+                            }
+                        }
 
                     }
-
-                }
                 
             }
         }
