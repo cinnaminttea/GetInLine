@@ -4,10 +4,17 @@ using UnityEngine.UIElements;
 public class mouseClickRaycast : MonoBehaviour
 {
     public Vector3 clickedBead;
+    public Vector3 highlightArea;
     public GameObject highlight;
     public Canvas canvas;
-    public Rect creationArea;
+    public Rect creationArea1;
+    public Rect creationArea2;
 
+    private void Start()
+    {
+        creationArea1 = new Rect(0, 0, 80.006f, 30.015f);
+        creationArea2 = new Rect(0, 0, 40.311f, 60.634f);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -33,10 +40,13 @@ public class mouseClickRaycast : MonoBehaviour
                         for (int j = 0; j < 3; j++)
                         {
 
-                        //if (creationArea.Contains(clickedBead))
-                        if (1==1)
+                        highlightArea = clickedBead + new Vector3(0.702f * (i - 1), 0.694f * (j - 1), 0);
+
+                        Debug.Log(highlightArea.ToString());
+                        //if (creationArea1.Contains(highlightArea) || creationArea2.Contains(highlightArea))
+                            if (highlightArea.x>-4.5 && highlightArea.x < 4.5 && highlightArea.y > -4 && highlightArea.y < 4)
                             {
-                                Instantiate(highlight, clickedBead + new Vector3(0.702f * (i - 1), 0.694f * (j - 1), 0), Quaternion.identity, canvas.transform);
+                                Instantiate(highlight, highlightArea, Quaternion.identity, canvas.transform);
                             }
                         }
 
