@@ -171,8 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &22156922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,8 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &104038262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -881,8 +879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!1 &121080248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,8 +1129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &149777277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,8 +1372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &262541186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,8 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &450758072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,8 +1805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &451222247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1988,8 +1981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &470231500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2232,8 +2224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &508973397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2845,8 +2836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &565493112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3022,8 +3012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &571930634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3534,8 +3523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &829239634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4122,8 +4110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &988315353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4299,8 +4286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &993684019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4686,8 +4672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!114 &1040653436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4891,7 +4876,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1160010523}
-  - component: {fileID: 1160010525}
   - component: {fileID: 1160010524}
   m_Layer: 0
   m_Name: Score/Win
@@ -4924,25 +4908,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160010522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
---- !u!114 &1160010525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160010522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
+  m_Script: {fileID: 11500000, guid: f1a3e7ff018026543bfb5af6fee05670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BlackScoreText: {fileID: 121080250}
   BlackWinPanel: {fileID: 557664734}
+  WhiteScoreText: {fileID: 1276070496}
+  WhiteWinPanel: {fileID: 1005236678}
 --- !u!1 &1176909451
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,8 +5224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!1 &1245428920
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,8 +5906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!1 &1401189635
 GameObject:
   m_ObjectHideFlags: 0
@@ -6105,8 +6075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &1477999600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6543,8 +6512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!1 &1558740174
 GameObject:
   m_ObjectHideFlags: 0
@@ -7140,8 +7108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!1 &1867446979
 GameObject:
   m_ObjectHideFlags: 0
@@ -7325,8 +7292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887bc982a4372a41b977c9b65458774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WhiteScoreText: {fileID: 1276070496}
-  WhiteWinPanel: {fileID: 1005236678}
+  score: {fileID: 1160010524}
 --- !u!114 &2039158600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7709,8 +7675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387b72628fc06b145936ad6708c9abe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackScoreText: {fileID: 121080250}
-  BlackWinPanel: {fileID: 557664734}
+  score: {fileID: 1160010524}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

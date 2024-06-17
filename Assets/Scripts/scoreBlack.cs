@@ -6,33 +6,17 @@ using TMPro;
 
 public class scoreBlack : MonoBehaviour
 {
-    public TMP_Text BlackScoreText;
-    private int blackScore;
-    public GameObject BlackWinPanel;
-
-    void Update()
-    {
-        if (blackScore >= 6)
-        {
-            BlackWinPanel.SetActive(true);
-        }
-
-    }
+    public ScoreScript score;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "eliminate")
         {
             Debug.Log("oop");
-            AddScore();
             Destroy(gameObject);
-            BlackScoreText.text = $"{blackScore}";
+
+            score.AddScoreW();
         }
     }
 
-    void AddScore()
-    {
-        blackScore++;
-        BlackScoreText.text = blackScore.ToString();
-    }
 }
